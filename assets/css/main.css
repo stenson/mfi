@@ -1,0 +1,744 @@
+body {
+  background: white;
+  font-family: "TiemposTextWeb", Georgia, serif;
+}
+
+em {
+  font-family: "TiemposTextWeb", Georgia, serif;
+  font-style: italic;
+}
+
+.width {
+  max-width: 680px;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#header-container {
+  background: url(/img/geometry2.gif);
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-bottom: 2px solid white;
+  background-size: 60px 60px;
+}
+
+#header {
+  height: 60px;
+}
+
+#logo {
+}
+
+#logo a.ghz {
+  display: block;
+  position: absolute;
+  top: 6px;
+  right: 16px;
+  border: 2px solid white;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+#logo a.ghz img {
+  height: 100px !important;
+}
+
+#logo a.tonal {
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 19px;
+  border-left: 6px solid rgb(186, 15, 97);
+  padding-left: 1px;
+}
+
+#logo img {
+  display: block;
+}
+
+#slogan {
+  font-family: "FoundersGroteskWeb", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 80%;
+  position: absolute;
+  top: 15px;
+  left: 152px;
+  width: 110px;
+  color: rgb(186, 15, 97);
+}
+
+@media screen and (max-width: 400px) {
+  #slogan {
+    font-size: 12px;
+    width: 50px;
+    left: 148px;
+    top: 16px;
+  }
+}
+
+#container {
+  margin: 80px auto 80px auto;
+}
+
+#content {
+  background: white;
+  padding: 20px 20px;
+  font-size: 16px;
+  min-height: 800px;
+}
+
+.post-listing {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+  font-size: 24px;
+  color: #888;
+  font-family: "FoundersGroteskWeb", sans-serif;
+}
+
+.post-listing li {
+  margin: 10px 0 20px 0;
+}
+
+.post-listing li a {
+  color: steelblue;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
+}
+
+.post-listing li .lede {
+  display: block;
+  font-family: "FoundersGroteskWeb", sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-top: 2px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.post-listing li a span {
+  font-weight: normal;
+  color: #ccc;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.post-listing li .tags {
+  position: absolute;
+  font-weight: normal;
+  margin-left: 6px;
+  color: #eee;
+}
+
+.post-listing li .tags em {
+  font-style: normal;
+  font-weight: bold;
+  color: lavender;
+}
+
+.post {
+  line-height: 125%;
+  color: #222;
+}
+
+.post ul.bullets,
+.post ol.numbers {
+  font-size: 15px;
+  list-style: none;
+}
+
+.post li {
+  margin-bottom: 10px;
+  text-indent: -17px;
+  line-height: 150%;
+}
+
+.post span.punct {
+  width: 17px;
+  display: inline-block;
+  color: #999;
+  font-family: "FoundersGroteskWeb", serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1px;
+}
+
+.post-metadata {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.post-tags {
+  margin: 10px 0;
+}
+
+.post h1, .post h2 {
+  font-family: "FoundersGroteskWeb", "Helvetica Neue", "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+
+.post h2 {
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+.post h3 {
+  font-weight: normal;
+  font-style: italic;
+  border-top: 1px dotted #ccc;
+  padding-top: 18px;
+  margin-top: 50px;
+  width: 75%;
+}
+
+.post h4 {
+  font-weight: bold;
+  font-family: "FoundersGroteskWeb", sans-serif;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.post h4 .parenthetical {
+  color: steelblue;
+  font-size: 24px;
+  line-height: 14px;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+.post h4 .parenthesis {
+  color: steelblue;
+  opacity: 0.1;
+}
+
+.post-metadata .date {
+  font-family: "TiemposTextWeb", serif;
+  font-style: italic;
+}
+
+.post-post {
+  margin-top: 20px;
+}
+
+.post-post .author {
+  text-align: right;
+  font-family: "TiemposTextWeb", serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.post .section {
+  /*margin: 10px 0 10px 0;*/
+  position: relative;
+}
+
+.post .section.left {
+  margin-right: -40px;
+  padding-right: 40px;
+  border-right: 1px solid #eee;
+}
+
+.post .section.right {
+  margin-left: -40px;
+  padding-left: 40px;
+  border-left: 1px solid #eee;
+}
+
+.post .section-start {
+  height: 4px;
+}
+
+.post .section-end {
+  height: 10px;
+}
+
+.post .spandrel {
+  position: absolute;
+  width: 16px;
+  height: 4px;
+  background: #eee;
+}
+
+.post .section.left .section-start .spandrel {
+  top: 0;
+  right: 0;
+}
+
+.post .section.left .section-end .spandrel {
+  bottom: 0;
+  right: 0;
+}
+
+.post .section.right .section-start .spandrel {
+  top: 0;
+  left: 0;
+}
+
+.post .section.right .section-end .spandrel {
+  bottom: 0;
+  left: 0;
+}
+
+.section .section-start h5 {
+  position: absolute;
+  top: 18px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 105%;
+  margin: 0;
+  font-family: "TiemposTextWeb", serif;
+  text-align: right;
+}
+
+.section.left .section-start h5 {
+  left: 105%;
+}
+
+.section.right .section-start h5 {
+  right: 105%;
+}
+
+.post p.classic {
+  /*text-align: justify;*/
+  /*text-indent: 14px;*/
+  margin: 0;
+  padding: 10px 0 10px 0;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "TiemposTextWeb", serif;
+  /*text-align: justify;*/
+  /*text-indent: 8px;*/
+}
+
+/*.hyphenate p.classic {*/
+  /*text-align: justify;*/
+/*}*/
+
+.post em.inlined {
+  color: #000;
+  font-family: "TiemposTextWeb", sans-serif;
+  font-style: italic;
+}
+
+.post strong.inlined {
+  color: #000;
+  font-family: "FoundersGroteskWeb", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*.post p.classic span.code {*/
+  /*background: whitesmoke;*/
+  /*font-family: menlo, monospace;*/
+  /*font-size: 13px;*/
+  /*padding: 2px 4px;*/
+  /*color: #000;*/
+  /*border-bottom: 1px solid #ccc;*/
+  /*font-style: italic;*/
+/*}*/
+
+.post a {
+  text-decoration: none;
+  /*border-bottom: 2px solid whitesmoke;*/
+  color: rgb(66,101,167);
+}
+
+.post a * {
+  color: rgb(66,101,167) !important;
+}
+
+.post .dropcap {
+  float: left;
+  color: rgb(206,25,117);
+  font-size: 60px;
+  line-height: 46px;
+  height: 34px;
+  padding: 0 5px 0 0;
+  font-family: "FoundersGroteskWeb", sans-serif;
+  font-weight: bold;
+}
+
+.post .parenthesis {
+  color: #aaa;
+}
+
+.post .parenthetical {
+  color: #444;
+}
+
+.post hr {
+  width: 50%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  margin: 40px auto;
+}
+
+.post figure {
+  font-size: 12px;
+  text-align: center;
+  font-family: "TiemposTextWeb", sans-serif;
+  margin: 20px auto;
+  font-style: italic;
+}
+
+.post figure.callout {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.post figure.right-sidebar {
+  width: 180px;
+  float: right;
+  padding: 0 0 10px 20px;
+  margin: 17px 0 0 0;
+}
+
+.post figure.gif {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  margin-bottom: 60px;
+}
+
+.post figure img {
+  width: 100%;
+}
+
+.post figure.shadowless img {
+  box-shadow: none;
+}
+
+.post blockquote {
+  margin: 0;
+  padding: 20px 10px 20px 40px;
+}
+
+.post blockquote.typewriter {
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.post blockquote.academic {
+  font-family: "cmu_serifroman", "Times New Roman", serif;
+  line-height: 130%;
+  font-size: 14px;
+}
+
+.post blockquote.academic em {
+  font-family: "cmu_serifitalic", serif;
+  font-style: normal;
+}
+
+.post .times {
+  font-family: monospace !important;
+}
+
+.post iframe.embed {
+  width: 100%;
+  border: none;
+  height: 360px;
+  margin: 30px 0 24px;
+}
+
+.tombstone {
+  margin-left: 4px;
+  font-weight: bold;
+  font-family: "FoundersGroteskWeb", sans-serif;
+}
+
+.post-footnotes {
+  margin-top: 100px;
+  padding-top: 8px;
+  font-size: 14px;
+  border-top: 1px solid #eee;
+}
+
+.post-footnotes h6 {
+  font-size: 12px;
+  color: #555;
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "TiemposTextWeb", serif;
+}
+
+.post-footnotes .footnote {
+  text-indent: -30px;
+  margin-left: 33px;
+  margin-bottom: 20px;
+}
+
+.footnote-backref {
+  display: inline-block;
+  width: 27px;
+  opacity: 0.8;
+  font-family: "TiemposTextWeb", sans-serif;
+  text-indent: 0;
+}
+
+.tag-human {
+  font-weight: bold;
+  font-family: "FoundersGroteskWeb", sans-serif;
+}
+
+.tag-human span {
+  color: #aaa;
+}
+
+.tag-about {
+  font-weight: normal;
+  font-style: italic;
+  font-family: "TiemposTextWeb", sans-serif;
+  margin-bottom: 60px;
+  width: 50%;
+}
+
+#footer-container {
+  background: url(/img/geometry2.gif);
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-top: 2px solid white;
+  background-size: 60px 60px;
+}
+
+#footer {
+  padding: 20px 0;
+}
+
+#footer-links {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#footer a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+#footer-links span {
+  opacity: 0.3;
+}
+
+#footer-links span:last-child {
+  display: none;
+}
+
+.copyright {
+  font-family: "TiemposTextWeb", serif;
+  color: #555;
+  text-align: center;
+}
+
+.separator {
+  text-align: center;
+  color: #ccc;
+  margin: 20px 0;
+}
+
+.social {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.numbered .parenthesis {
+  color: rgb(206,25,117);
+  opacity: 0.3;
+}
+
+.numbered .parenthetical {
+  color: rgb(206,25,117) !important;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.audio-span .sep-title.webaudio {
+  font-size: 80%;
+  padding: 0 6px;
+  display: inline-block;
+  border-radius: 4px;
+  /*box-shadow: 0 0 2px rgba(0,0,0,0.2);*/
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #eee;
+  background: white;
+  color: rgb(66,101,167);
+  margin: 0 1px;
+  line-height: 161%;
+  text-indent: 0 !important;
+}
+
+.webaudio .progress {
+  position: absolute;
+  background: black;
+  opacity: 0.3;
+  height: 100%;
+  width: 40px;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.webaudio i.fa {
+  margin-right: 6px;
+  opacity: 0.9;
+  width: 12px;
+  text-align: center;
+}
+
+.fourloops-strongs strong {
+  color: rgb(118,176,167) !important;
+  border-bottom: 1px solid rgba(118,176,167,0.5);
+  cursor: pointer;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.code {
+  font-family: "Ubuntu Mono", Menlo, monospace;
+  font-size: 16px;
+  color: #659;
+  font-weight: bold;
+  /*background-color: #dcf;*/
+  /*padding: 4px 4px 3px 4px;*/
+  /*box-shadow: 0 0 2px rgba(0,0,0,0.2);*/
+}
+
+pre {
+  overflow: visible;
+}
+
+code {
+  font-size: 14px;
+  line-height: 110%;
+  padding: 14px !important;
+  margin: 0 10px;
+  border: 1px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  /*max-height: 400px;*/
+  font-family: "Ubuntu Mono", Menlo, monospace;
+  background: whitesmoke !important;
+}
+
+.answer {
+  display: block;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+.answer .hljs-prompt {
+  visibility: hidden;
+  width: 0;
+  display: block;
+}
+
+table {
+  margin: 18px auto;
+  border: 1px solid #eee;
+}
+
+td, th {
+  padding: 6px 12px;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+th {
+  font-family: "FoundersGroteskWeb", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+tr.highlight {
+  background: Ivory;
+}
+
+.alt-1 {
+  border-bottom: 1px solid #ccc;
+}
+
+.alt-2 {
+  background: #eee;
+}
+
+.alt-3 {
+  background: #eee;
+  color: rgb(206,25,117);
+  display: inline-block;
+  padding: 0 8px 1px 8px;
+  border-radius: 2px;
+  font-family: "FoundersGroteskWeb", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+figure.side-caption {
+  position: relative;
+}
+
+figure.side-caption span {
+  display: inline-block;
+  position: absolute;
+  text-align: left;
+  top: 20px;
+  right: 0;
+  width: 20%;
+}
+
+figure.side-caption img {
+  /*box-shadow: none;*/
+  width: 76%;
+  display: block;
+  margin-left: 0;
+}
+
+.post figure.small {
+  float: right;
+  margin-top: -20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.post figure.small iframe {
+  width: 300px;
+  height: 320px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  border: 1px solid white;
+}
+
+.post figure.very-tall iframe {
+  height: 340px;
+  border: 1px solid #ddd;
+}
+
+img.emoji {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.post h5 {
+  font-family: "FoundersGroteskWeb", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 40px 0 8px 0;
+}
+
+.right-align {
+  text-align: right;
+}

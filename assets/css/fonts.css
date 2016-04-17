@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: 'FoundersGroteskWeb';
+  src: url('/css/klim/FoundersGroteskWeb-Semibold.eot');
+  src: url('/css/klim/FoundersGroteskWeb-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('/css/klim/FoundersGroteskWeb-Semibold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PitchWeb';
+  src: url('/css/klim/PitchWeb-Regular.eot');
+  src: url('/css/klim/PitchWeb-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/css/klim/PitchWeb-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PitchWeb';
+  src: url('/css/klim/PitchWeb-RegularItalic.eot');
+  src: url('/css/klim/PitchWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+  url('/css/klim/PitchWeb-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TiemposTextWeb';
+  src: url('/css/klim/TiemposTextWeb-Regular.eot');
+  src: url('/css/klim/TiemposTextWeb-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/css/klim/TiemposTextWeb-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TiemposTextWeb';
+  src: url('/css/klim/TiemposTextWeb-RegularItalic.eot');
+  src: url('/css/klim/TiemposTextWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+  url('/css/klim/TiemposTextWeb-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
