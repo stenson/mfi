@@ -17,14 +17,11 @@ em {
 }
 
 #header-container {
-  background: url(/img/geometry2.gif);
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  border-bottom: 2px solid white;
-  background-size: 60px 60px;
 }
 
 #header {
   height: 60px;
+  overflow: hidden;
 }
 
 #logo {
@@ -45,15 +42,21 @@ em {
 
 #logo a.tonal {
   display: block;
-  position: absolute;
-  top: 9px;
-  left: 19px;
-  border-left: 6px solid rgb(186, 15, 97);
-  padding-left: 1px;
+  font-family: "PitchWeb", monospace;
+  text-align: center;
+  padding: 12px 0;
+  color: deeppink;
+  font-style: italic;
+  font-size: 14px;
+  text-decoration: none;
+  background: deeppink;
+  color: white;
+  margin: auto auto;
+  padding: 10px 0 12px 0;
 }
 
 #logo img {
-  display: block;
+  display: inline;
 }
 
 #slogan {
@@ -78,9 +81,9 @@ em {
 }
 
 #container {
-  margin: 80px auto 80px auto;
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
+  margin: 180px auto 80px auto;
+  /*border-left: 1px solid #ddd;*/
+  /*border-right: 1px solid #ddd;*/
 }
 
 #content {
@@ -105,7 +108,7 @@ em {
 }
 
 .post-listing li a {
-  color: steelblue;
+  color: royalblue;
   border-bottom: 1px solid #eee;
   text-decoration: none;
 }
@@ -208,7 +211,7 @@ em {
 }
 
 .post h4 .parenthetical {
-  color: steelblue;
+  color: royalblue;
   font-size: 24px;
   line-height: 14px;
   display: inline-block;
@@ -217,7 +220,7 @@ em {
 }
 
 .post h4 .parenthesis {
-  color: steelblue;
+  color: royalblue;
   opacity: 0.1;
 }
 
@@ -315,14 +318,19 @@ em {
 .post p.classic {
   text-align: justify;
   /*text-indent: 14px;*/
-  letter-spacing: -1px;
+  /*letter-spacing: -1px;*/
   margin: 0;
   padding: 10px 0 10px 0;
   line-height: 160%;
   font-size: 15px;
-  font-family: "PitchWeb", "TiemposTextWeb", serif;
+  font-family: "TiemposTextWeb", serif;
   /*text-align: justify;*/
   /*text-indent: 8px;*/
+}
+
+.post p.classic.intro {
+  font-style: italic;
+  text-align: left;
 }
 
 /*.hyphenate p.classic {*/
@@ -355,7 +363,7 @@ em {
 .post a {
   text-decoration: none;
   /*border-bottom: 2px solid whitesmoke;*/
-  color: rgb(66,101,167);
+  color: royalblue;
 }
 
 .post a * {
@@ -392,7 +400,7 @@ em {
 .post figure {
   font-size: 12px;
   text-align: center;
-  font-family: "TiemposTextWeb", sans-serif;
+  font-family: "PitchWeb", "TiemposTextWeb", sans-serif;
   margin: 20px auto;
   font-style: italic;
 }
@@ -513,10 +521,11 @@ em {
 }
 
 #footer-container {
-  background: url(/img/geometry2.gif);
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  border-top: 2px solid white;
-  background-size: 60px 60px;
+  /*background: url(/img/geometry2.gif);*/
+  /*box-shadow: 0 0 10px rgba(0,0,0,0.05);*/
+  /*border-top: 2px solid white;*/
+  /*background-size: 60px 60px;*/
+  border-top: 1px dashed #ddd;
 }
 
 #footer {
@@ -529,7 +538,7 @@ em {
 }
 
 #footer a {
-  color: steelblue;
+  color: royalblue;
   text-decoration: none;
 }
 
@@ -542,9 +551,9 @@ em {
 }
 
 .copyright {
-  font-family: "TiemposTextWeb", serif;
-  color: #555;
+  font-family: "PitchWeb","TiemposTextWeb", serif;
   text-align: center;
+  font-size: 12px;
 }
 
 .separator {
@@ -572,16 +581,16 @@ em {
 
 .audio-span .sep-title.webaudio {
   font-size: 80%;
-  padding: 0 6px;
-  /*display: inline-block;*/
+  padding: 2px 6px;
+  /* display: inline-block; */
   border-radius: 4px;
-  /*box-shadow: 0 0 2px rgba(0,0,0,0.2);*/
+  /* box-shadow: 0 0 2px rgba(0,0,0,0.2); */
   position: relative;
   cursor: pointer;
-  border: 1px solid #eee;
-  background: white;
-  color: rgb(66,101,167);
-  margin: 0 1px;
+  /* border: 1px solid #eee; */
+  /*background: rgb(120,100,100);*/
+  background: orchid;
+  color: white;margin: 0 1px;
   line-height: 161%;
   text-indent: 0 !important;
 }
@@ -705,6 +714,14 @@ figure.side-caption span {
   width: 20%;
 }
 
+figure.face,
+figure.face-left {
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin: 15px 0px 8px 20px;
+}
+
 figure.side-caption img {
   /*box-shadow: none;*/
   width: 76%;
@@ -756,9 +773,9 @@ img.emoji {
 }
 
 .post .center-align {
-  text-align: center;
+  text-align: center !important;
 }
 
-.post .center-align em.inlined {
+/*.post .center-align em.inlined {
   font-family: "PitchWeb", monospace;
-}
+}*/

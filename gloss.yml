@@ -3,11 +3,11 @@
   id: my-first-instrument
   url: "http://myfirstinstrument.vulf.de"
   favicon: ""
-  slogan: Interviews with musicians
+  icons: true
   twitter: "@robstenson"
   company:
-    name: "Vulf, LLC"
-    link: "https://vulf.de"
+    name: "Rob Stenson"
+    link: "https://robstenson.com"
   search:
     description: "Interviews with musicians"
     keywords: "first instrument,first,instrument,vulf,vulfpeck,goodhertz"
@@ -16,12 +16,8 @@
     home:
       logo: /img/logo.gif
   tombstone: "¶"
-  social: "@robstenson"
+  social: "My First Instrument"
   #google-analytics: "UA-60324777-1"
-  #newyorkerize: false
-  #fonts:
-  #  google:
-  #    - "Ubuntu+Mono:400,700"
   css:
     - normalize
     - fonts
@@ -29,12 +25,11 @@
   js:
     - highlight.pack
     - hyphenator
-    - magnific.min
+    #- magnific.min
     - audio
-  icons: true
   drive-articles:
     - "1NW10qRhKWJ2vVZM0AotrxePsMN0yyRkA7hgKo19-fnc"
     - "1JIdAa_Otkbn65llBuqi6gewDBawFKBzl-By-DaOwUuQ"
-  footer:
-    links:
-      - { href: "https://twitter.com/robstenson", text: "Rob Stenson" }
+  meta:
+    - property: "og:site_name"
+      content: "My First Instrument"
