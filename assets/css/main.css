@@ -42,7 +42,7 @@ em {
 
 #logo a.tonal {
   display: block;
-  font-family: "PitchWeb", monospace;
+  font-family: monospace;
   text-align: center;
   padding: 12px 0;
   color: deeppink;
@@ -81,7 +81,7 @@ em {
 }
 
 #container {
-  margin: 180px auto 80px auto;
+  margin: 80px auto 80px auto;
   /*border-left: 1px solid #ddd;*/
   /*border-right: 1px solid #ddd;*/
 }
@@ -180,7 +180,7 @@ em {
 
 .post h1, .post h2 {
   font-family: "PitchWeb", "FoundersGroteskWeb", "Helvetica Neue", "Source Sans Pro", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 100%;
   margin-bottom: 10px;
   text-align: center;
@@ -321,8 +321,8 @@ em {
   /*letter-spacing: -1px;*/
   margin: 0;
   padding: 10px 0 10px 0;
-  line-height: 160%;
-  font-size: 15px;
+  line-height: 170%;
+  font-size: 14px;
   font-family: "TiemposTextWeb", serif;
   /*text-align: justify;*/
   /*text-indent: 8px;*/
@@ -330,7 +330,7 @@ em {
 
 .post p.classic.intro {
   font-style: italic;
-  text-align: left;
+  /*text-align: left;*/
 }
 
 /*.hyphenate p.classic {*/
@@ -372,13 +372,14 @@ em {
 
 .post .dropcap {
   float: left;
-  color: rgb(206,25,117);
+  color: #333;
   font-size: 60px;
   line-height: 46px;
   height: 34px;
   padding: 0 5px 0 0;
   font-family: "FoundersGroteskWeb", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .post .parenthesis {
@@ -400,7 +401,7 @@ em {
 .post figure {
   font-size: 12px;
   text-align: center;
-  font-family: "PitchWeb", "TiemposTextWeb", sans-serif;
+  font-family: "TiemposTextWeb", sans-serif;
   margin: 20px auto;
   font-style: italic;
 }
@@ -422,12 +423,17 @@ em {
   /*border-top: 1px solid #eee;*/
   /*border-bottom: 1px solid #eee;*/
   padding: 10px 0;
-  margin-bottom: 60px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .post figure img {
   width: 100%;
 }
+
+/*.post figure a {
+  color: #445;
+}*/
 
 .post figure.shadowless img {
   box-shadow: none;
@@ -551,7 +557,7 @@ em {
 }
 
 .copyright {
-  font-family: "PitchWeb","TiemposTextWeb", serif;
+  font-family: "PitchWeb", monospace;
   text-align: center;
   font-size: 12px;
 }
@@ -719,7 +725,9 @@ figure.face-left {
   width: 60px;
   height: 60px;
   float: right;
-  margin: 15px 0px 8px 20px;
+  margin: 15px 0px 20px 20px;
+  font-family: "PitchWeb", monospace;
+  font-style: italic;
 }
 
 figure.side-caption img {
