@@ -5,6 +5,7 @@
   favicon: ""
   icons: true
   twitter: "@robstenson"
+  image-index: true
   company:
     name: "Rob Stenson"
     link: "https://robstenson.com"
@@ -28,8 +29,8 @@
     #- magnific.min
     - audio
   drive-articles:
-    - "1NW10qRhKWJ2vVZM0AotrxePsMN0yyRkA7hgKo19-fnc"
-    - "1JIdAa_Otkbn65llBuqi6gewDBawFKBzl-By-DaOwUuQ"
+    #- "1NW10qRhKWJ2vVZM0AotrxePsMN0yyRkA7hgKo19-fnc"
+    #- "1JIdAa_Otkbn65llBuqi6gewDBawFKBzl-By-DaOwUuQ"
   meta:
     - property: "og:site_name"
       content: "My First Instrument"

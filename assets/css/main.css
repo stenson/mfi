@@ -108,9 +108,21 @@ em {
 }
 
 .post-listing li a {
-  color: royalblue;
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-family: "PitchWeb", monospace;
+  text-align: center;
+  font-weight: normal;
   border-bottom: 1px solid #eee;
   text-decoration: none;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  width: 200px;
+  border-radius: 100%;
+  margin: auto auto;
+  border: 5px solid royalblue;
 }
 
 .post-listing li .lede {
@@ -423,8 +435,10 @@ em {
   /*border-top: 1px solid #eee;*/
   /*border-bottom: 1px solid #eee;*/
   padding: 10px 0;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: -120px;
+  margin-right: -120px;
 }
 
 .post figure img {
@@ -499,6 +513,7 @@ em {
   text-indent: -30px;
   margin-left: 33px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .footnote-backref {
