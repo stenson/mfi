@@ -1,0 +1,60 @@
+figure.side-caption {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+figure.side-caption span {
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: 0;
+}
+
+figure.side-caption img {
+  width: 100%;
+  display: block;
+}
+
+.post figure.small {
+  float: none;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.post figure.small iframe {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  border: 1px solid white;
+  margin: auto auto;
+}
+
+.post figure.right-sidebar {
+  width: 100%;
+  float: none;
+  margin: 20px auto;
+}
+
+.post figure.gif {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.post-listing li {
+  margin: 10px 0px 20px 0px !important;
+  float: none !important;
+}
+
+div#sponsors-container {
+  height: auto !important;
+  position: relative;
+  margin-top: 80px;
+}
+
+div#sponsors {
+  position: relative;
+  top: auto;
+  right: auto;
+}

@@ -1,14 +1,14 @@
 ~title: Theo Katzman
 ~slug: theo-katzman
-~lede: Son of bebop inherits Freije’s Ludwigs
 ~date: April 17, 2016
-~meta-image: /gif/theo_bw.gif
+~meta-image: /gif/theo_preview.gif
+~lede: Theo Katzman wails on the snare drum from his 1958 Ludwigs.
 
-ƒ«img:/gif/theo.gif» (§:gif)
+ƒ«img:/gif/theo.gif» [Theo Katzman](http://www.theokatzman.com/) wails on the snare drum from his 1958 champagne-sparkle Ludwigs. (§:gif)
 
-∂Theo Katzman is a singer-songwriter living in Northeast Los Angeles, as well as an in-demand multi-instrumentalist — drums, bass, guitar (slide and standard) — that you’ll find performing in all types of gigs all over Los Angeles, and nationwide with [Vulfpeck](http://vulfpeck.com/). (§:intro) 
+∂Theo Katzman is a singer-songwriter living in Los Angeles, as well as an in-demand multi-instrumentalist — drums, bass, guitar (slide and standard) — that you’ll find performing in all types of gigs all over Los Angeles, and nationwide with [Vulfpeck](http://vulfpeck.com/). (§:intro)
 
-I met up with Theo at his home in the Mt. Washington neighborhood of Los Angeles. (§:intro) 
+When Theo stopped by one afternoon for this interview, he was cradling a salad bowl with a half-eaten salad inside. He looked up when I opened the door and smiled. “Let’s do this!” he said without missing a beat. A few weeks later, when I went to his house in the Mt. Washington neighborhood of Los Angeles to take his photograph, Theo was packing his bags for a week in New Orleans, but he made sure to make time for a little air-drumming. (§:intro) 
 
 ___
 
@@ -36,9 +36,11 @@ My first instrument was the drums, though it wasn’t the first one that I studi
 
 Years later, I remember, one day, somebody played me Led Zeppelin for the first time and I completely snapped. I stole a drum pad from the school, and some sticks, and I just started playing drums on the pad at home. Then with a tin lamp shade I made this little kit and I told my dad I’m a drummer, man.
 
+ƒ«img:/gif/theo2.gif» (§:smaller)
+
 ##### So would you say that’s the first instrument you had yourself?
 
-Well yeah, so then my dad got me a Groove Percussion drumkit, some super cheap drum kit. I played it all the time and I really got deep into it. Took some lessons, got really into the lessons, then at some point my teacher — a jazz dude, from New York, had a dirty mouth — he apparently asked my dad for three grand one, because he thought they were homies. So then my dad fired him. I think he was just feeling chummy with my dad, my dad being the be-bopper he was. And my dad was not into that. So I got a new teacher. But yeah, the Groove Percussion drumkit. It was black.
+Well yeah, so then my dad got me a Groove Percussion drumkit, some super cheap drum kit. I played it all the time and I really got deep into it. Took some lessons, got really into the lessons, then at some point my teacher — a jazz dude, from New York, had a dirty mouth — he apparently asked my dad for three grand once, because he thought they were homies. So then my dad fired him. I think he was just feeling chummy with my dad, my dad being the be-bopper he was. And my dad was not into that. So I got a new teacher. But yeah, the Groove Percussion drumkit. It was black.
 
 ##### What happened to it?
 

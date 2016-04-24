@@ -16,6 +16,10 @@ em {
   position: relative;
 }
 
+body.index .width {
+  max-width: 786px;
+}
+
 #header-container {
 }
 
@@ -53,6 +57,7 @@ em {
   color: white;
   margin: auto auto;
   padding: 10px 0 12px 0;
+  max-width: 430px;
 }
 
 #logo img {
@@ -90,11 +95,36 @@ em {
   background: white;
   padding: 20px 20px;
   font-size: 16px;
-  min-height: 800px;
+  min-height: 600px;
+}
+
+body.index #content {
+  padding: 0px;
+}
+
+.inline-about {
+  font-family: FoundersGroteskWeb, sans-serif;
+  width: 80%;
+  margin: auto auto;
+  text-align: center;
+  color: #555;
+  margin-bottom: 82px;
+  margin-top: -20px;
+}
+
+.inline-about span {
+  color: #111;
+  border-bottom: 1px dotted #ccc;
+}
+
+.inline-about em {
+  font-family: PitchWeb, monospace;
+  font-style: italic;
 }
 
 .post-listing {
   margin: 0;
+  margin-top: -40px;
   padding: 0;
   list-style: none;
   font-weight: bold;
@@ -104,7 +134,8 @@ em {
 }
 
 .post-listing li {
-  margin: 10px 0 20px 0;
+  margin: 10px 10px 20px 10px;
+  float: left;
 }
 
 .post-listing li a {
@@ -114,31 +145,39 @@ em {
   font-family: "PitchWeb", monospace;
   text-align: center;
   font-weight: normal;
-  border-bottom: 1px solid #eee;
   text-decoration: none;
-  height: 200px;
-  background-size: cover;
-  background-position: center center;
   width: 200px;
-  border-radius: 100%;
   margin: auto auto;
-  border: 5px solid royalblue;
+  border: 1px solid #eee;
+  padding: 20px;
 }
 
-.post-listing li .lede {
-  display: block;
-  font-family: "FoundersGroteskWeb", sans-serif;
-  font-size: 16px;
-  color: #333;
-  margin-top: 2px;
-  font-style: italic;
-  font-weight: normal;
+.post-listing li a:hover {
+  background: whitesmoke;
+}
+
+.post-listing li .img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.25);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 14px;
+}
+
+.post-listing a em {
+    color: #777;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-family: PitchWeb, monospace;
 }
 
 .post-listing li a span {
   font-weight: normal;
-  color: #ccc;
-  border-bottom: 1px solid whitesmoke;
+  color: #555;
+  border-bottom: 1px solid #ccc;
 }
 
 .post-listing li .tags {
@@ -416,6 +455,7 @@ em {
   font-family: "TiemposTextWeb", sans-serif;
   margin: 20px auto;
   font-style: italic;
+  line-height: 13px;
 }
 
 .post figure.callout {
@@ -439,10 +479,23 @@ em {
   margin-bottom: 40px;
   margin-left: -120px;
   margin-right: -120px;
+  font-family: PitchWeb, monospace;
+  font-style: italic;
+  line-height: 21px;
 }
 
 .post figure img {
   width: 100%;
+}
+
+figure.smaller {
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    padding: 40px 0px;
+}
+
+.post figure.smaller img {
+  width: 250px;
 }
 
 /*.post figure a {
@@ -518,7 +571,7 @@ em {
 
 .footnote-backref {
   display: inline-block;
-  width: 27px;
+  width: 29px;
   opacity: 0.8;
   font-family: "TiemposTextWeb", sans-serif;
   text-indent: 0;
@@ -802,3 +855,39 @@ img.emoji {
 /*.post .center-align em.inlined {
   font-family: "PitchWeb", monospace;
 }*/
+
+div#sponsors-container {
+  height: 0px;
+  position: relative;
+}
+
+div#sponsors {
+  width: 100px;
+  text-align: center;
+  margin: auto auto;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  padding-top: 10px;
+  border-top: 4px solid #eee;
+  position: absolute;
+  right: -200px;
+  top: -600px;
+}
+
+div#sponsors .sponsor-text {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 14px;
+}
+
+div.sponsorship {
+  width: 100px;
+  margin: auto auto;
+}
+
+div.sponsorship img {
+  width: 100%;
+}

@@ -1,11 +1,14 @@
 ---
   title: "My First Instrument"
+  site-name: "My First Instrument"
   id: my-first-instrument
   url: "http://myfirstinstrument.vulf.de"
-  favicon: ""
+  favicon: "/favicon.ico"
   icons: true
   twitter: "@robstenson"
   image-index: true
+  inline-about: |
+    <em>« What was your first instrument? »</em>
   company:
     name: "Rob Stenson"
     link: "https://robstenson.com"
@@ -26,11 +29,14 @@
   js:
     - highlight.pack
     - hyphenator
-    #- magnific.min
     - audio
   drive-articles:
-    #- "1NW10qRhKWJ2vVZM0AotrxePsMN0yyRkA7hgKo19-fnc"
     #- "1JIdAa_Otkbn65llBuqi6gewDBawFKBzl-By-DaOwUuQ"
   meta:
     - property: "og:site_name"
       content: "My First Instrument"
+  hasSponsorships: true
+  sponsorships:
+    - name: "Goodhertz, Inc."
+      logo: "/img/ghz-ad.png"
+      link: "https://goodhertz.co"
