@@ -6,6 +6,10 @@
 
 ƒ«img:/gif/wendy2.gif» [Wendy Wang](http://www.thesweethurt.com/) plays her 3/4-sized Kimball piano. (§:gif)
 
+∂Wendy Wang is a musician, composer, and Los Angeles native. Her work has appeared in movies and on television, and she has performed with, produced, and engineered for a who’s-who of excellent musicians. The first time I saw her perform was at the Hi-Hat, a new venue in the Highland Park neighborhood of Los Angeles, with her band, The Sweet Hurt. (§:intro)
+
+___
+
 ##### What was the last thing you listened to?
 
 I think it was a [Kacey Musgraves](/sound/musgraves.mp3) song. Some friends were like, “Oh, you gotta check her out.” But I didn’t know she was an artist until a couple days ago. So I was like, “Ok, yeah.”

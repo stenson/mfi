@@ -1,6 +1,6 @@
 ~title: Theo Katzman
 ~slug: theo-katzman
-~date: April 17, 2016
+~date: April 11, 2016
 ~meta-image: /gif/theo_preview.gif
 ~lede: Theo Katzman wails on the snare drum from his 1958 Ludwigs.
 

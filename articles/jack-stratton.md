@@ -1,6 +1,6 @@
 ~title: Jack Stratton
 ~slug: jack-stratton
-~date: April 20, 2016
+~date: April 30, 2016
 ~meta-image: /gif/jack_preview.gif
 ~lede: Jack Stratton plays his child-sized Suzuki violin.
 
