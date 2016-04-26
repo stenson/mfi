@@ -21,7 +21,7 @@
       logo: /img/logo.gif
   tombstone: "¶"
   social: "My First Instrument"
-  #google-analytics: "UA-60324777-1"
+  google-analytics: "UA-76959325-1"
   css:
     - normalize
     - fonts

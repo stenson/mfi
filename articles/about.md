@@ -4,7 +4,7 @@
 ~lede: A few words about this site
 ~meta-image: gif/rob_preview.gif
 
-ƒ«img:/gif/rob.gif» [Rob Stenson](http://robstenson.com) (author of this site) finger-picks a late 1940s Martin Triple-O. (§:gif)
+ƒ«img:/gif/rob.gif» [Rob Stenson](http://robstenson.com) (author of this site) finger-picks his father’s Martin Triple-O. (§:gif)
 
 ∂Recently, while falling asleep, I realized I wanted to put together a book of interviews — a book of interviews with musicians, to be more precise. And not just free-range interviews. These would center around a single, apparently simple question: “what was your first instrument?” (§:intro)
 
