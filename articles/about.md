@@ -2,7 +2,7 @@
 ~slug: about
 ~date: April 5, 2016
 ~lede: A few words about this site
-~meta-image: gif/rob_preview.gif
+~meta-image: gif/rob_preview2.gif
 
 ƒ«img:/gif/rob.gif» [Rob Stenson](http://robstenson.com) (author of this site) finger-picks his father’s Martin Triple-O. (§:gif)
 

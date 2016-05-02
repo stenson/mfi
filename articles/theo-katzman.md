@@ -1,14 +1,14 @@
 ~title: Theo Katzman
 ~slug: theo-katzman
 ~date: April 11, 2016
-~meta-image: /gif/theo_preview.gif
+~meta-image: /gif/theo_preview2.gif
 ~lede: Theo Katzman wails on the snare drum from his 1958 Ludwigs.
 
 ƒ«img:/gif/theo.gif» [Theo Katzman](http://www.theokatzman.com/) wails on the snare drum from his 1958 champagne-sparkle Ludwigs. (§:gif)
 
-∂Theo Katzman is a singer-songwriter living in Los Angeles, as well as an in-demand multi-instrumentalist — drums, bass, guitar (slide and standard) — that you’ll find performing in all types of gigs all over Los Angeles, and nationwide with [Vulfpeck](http://vulfpeck.com/). (§:intro)
+∂When Theo Katzman stopped by one afternoon for this interview, he was cradling a salad bowl with a half-eaten salad inside. I saw this through the peep hole. When I opened the door, he looked up when I opened the door and smiled. “Let’s do this!” he said without missing a beat. A few weeks later, when I went to his house in the Mt. Washington neighborhood of Los Angeles to take his photograph, Theo was packing his bags for a week in New Orleans, but he made sure to make time for a little air-drumming.
 
-When Theo stopped by one afternoon for this interview, he was cradling a salad bowl with a half-eaten salad inside. He looked up when I opened the door and smiled. “Let’s do this!” he said without missing a beat. A few weeks later, when I went to his house in the Mt. Washington neighborhood of Los Angeles to take his photograph, Theo was packing his bags for a week in New Orleans, but he made sure to make time for a little air-drumming. (§:intro) 
+Find out more about Theo at [theokatzman.com](http://www.theokatzman.com/). (§:intro)
 
 ___
 

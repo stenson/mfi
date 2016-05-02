@@ -6,19 +6,21 @@
   favicon: "/favicon.ico"
   icons: true
   twitter: "@robstenson"
+  twemoji: false
   image-index: true
   inline-about: |
-    <em>« What was your first instrument? »</em><div class='tagline'>Interviews with — and portraits of — musicians</div>
+    <div class='tagline'>Interviews with — and portraits of — musicians</div>
   company:
     name: "Rob Stenson"
-    link: "https://robstenson.com"
+    link: "http://robstenson.com"
   search:
     description: "Interviews with musicians"
     keywords: "first instrument,first,instrument,vulf,vulfpeck,goodhertz"
     title: "My First Instrument"
   header:
     home:
-      logo: /img/logo.gif
+      logo: /img/mfi.gif
+      height: 60
   tombstone: "¶"
   social: "My First Instrument"
   google-analytics: "UA-76959325-1"

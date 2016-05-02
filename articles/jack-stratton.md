@@ -1,14 +1,14 @@
 ~title: Jack Stratton
 ~slug: jack-stratton
 ~date: April 30, 2016
-~meta-image: /gif/jack_preview.gif
+~meta-image: /gif/jack_preview2.gif
 ~lede: Jack Stratton plays his child-sized Suzuki violin.
 
 ƒ«img:/gif/jack.gif» [Jack Stratton](https://twitter.com/jacks) plays his child-sized Suzuki violin. (§:gif)
 
-∂Jack Stratton is the band leader of [Vulfpeck](http://vulfpeck.com/) and the founder of Vulf Records, a small record label originally set up to distribute Vulfpeck records. In Vulfpeck, you’ll hear Jack playing any number of instruments: drums, guitar, keyboard. (§:intro)
+∂Jack Stratton lives in the Eagle Rock neighborhood of Los Angeles, on the side of a hill, hidden from the street. You’ll find a set of stairs — earthquake-shuffled, probably — which cut a steep but short path. While I sat on his patio at a long cork table, Jack cooked greens on an Presto electric griddle and answered my questions.
 
-I interviewed Jack in the Eagle Rock neighborhood of Los Angeles, at his home, which is on the side of a hill and hidden from the street. While I sat on his patio at a long cork table, Jack cooked greens on an Presto electric griddle and answered my questions. (§:intro)
+Find out more about Jack and Vulfpeck — the band he leads — at [vulfpeck.com](http://vulfpeck.com/). (§:intro)
 
 ___
 
