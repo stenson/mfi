@@ -147,7 +147,7 @@ body.page-index #content {
   text-decoration: none;
   width: 200px;
   margin: auto auto;
-  border: 1px solid #eee;
+  /*border: 1px solid #eee;*/
   padding: 20px;
   height: 367px;
 }
@@ -177,7 +177,8 @@ body.page-index #content {
 .post-listing li a span {
   font-weight: normal;
   color: #555;
-  border-bottom: 1px solid #ccc;
+  font-style: TiemposTextWeb, serif;
+  font-style: italic;
 }
 
 .post-listing li .tags {

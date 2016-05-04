@@ -48,6 +48,8 @@ ___
 
 Anyone who plays an instrument — professionals to amateurs. Though probably not people who don’t play instruments well, of course.
 
+ƒ«img:/img/handwritten.gif» (§:smaller)
+
 ##### Do you take requests?
 
 Yes, that would be awesome. And feel free to request yourself. Email me at rob.stenson@gmail.com.
