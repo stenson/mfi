@@ -6,7 +6,7 @@
 
 ƒ«img:/gif/wendy2.gif» [Wendy Wang](http://www.thesweethurt.com/) plays her 3/4-sized Kimball piano. (§:gif)
 
-∂The first time I met Wendy was at a bowling alley in the Eagle Rock neighborhood of Los Angeles, at a mutual friend’s birthday party. The first time I saw her perform was a few weeks later and a about a mile away, at the Hi-Hat, a new venue in the Highland Park neighborhood, with her band, The Sweet Hurt. A friend let me know the gravity of the sitution. “You gotta see this show.”
+∂The first time I saw Wendy Wang perform was at the Hi-Hat, a new venue in the Highland Park neighborhood, with her band, The Sweet Hurt. A friend let me know the gravity of the sitution. “You gotta see this show.”
 
 Find out more about Wendy at [thesweethurt.com](http://www.thesweethurt.com/). (§:intro)
 
